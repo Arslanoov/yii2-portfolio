@@ -9,7 +9,7 @@ $resetLink = Yii::$app->get('frontendUrlManager')->createAbsoluteUrl(['auth/rese
 
 <p>Привет, <?= $user->username ?>!</p>
 
-<p>Для восстановления пароля на сайте https://arslanoov.hhos.ru необходимо перейти по ссылке:</p>
+<p>Для восстановления пароля на сайте http://meteo.dev необходимо перейти по ссылке:</p>
 
 <?= $resetLink ?>
 
