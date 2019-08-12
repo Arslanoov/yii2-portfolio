@@ -11,6 +11,7 @@ return [
     'Username' => 'Имя пользователя',
     'Password' => 'Пароль',
     'Remember Me' => 'Запомнить меня',
+    'All' => 'Все',
 
     'Submit' => 'Отправить',
     "I'll get back to you as soon as possible" => "Я отвечу вам как можно скорее",

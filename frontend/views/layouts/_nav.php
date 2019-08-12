@@ -23,7 +23,7 @@ use yii\helpers\Url;
                 'submenuTemplate' => '<ul class="sub-nav hidden">{items}</ul>'
             ];
 
-            $menu['items'][] = ['label' => Yii::t('app', 'Portfolio'), 'url' => [Yii::$app->language . '/portfolio'], 'options' => ['class' => (Url::current() ==  '/portfolio' ? 'selected' : '')]];
+            $menu['items'][] = ['label' => Yii::t('app', 'Portfolio'), 'url' => [Yii::$app->language . '/portfolio'], 'options' => ['class' => (Url::current() ==  '/' ? 'selected' : '')]];
             $menu['items'][] = ['label' => Yii::t('app', 'Contact'), 'url' => [Yii::$app->language . '/contact'], 'options' => ['class' => (Url::current() ==  '/contact' ? 'selected' : '')]];
 
             $pages = $pageHelper->getMainPages();

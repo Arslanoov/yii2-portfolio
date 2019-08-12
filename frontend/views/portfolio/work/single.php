@@ -49,13 +49,15 @@ $this->params['breadcrumbs'][] = Html::encode($work->title);
         <div class="col-md-4">
             <h5 class="header"><?= Yii::t('app', 'Brief') ?></h5>
             <p>
-                <?= Yii::$app->formatter->asHtml($data->content, [
-                    'Attr.AllowedRel' => array('nofollow'),
-                    'HTML.SafeObject' => true,
-                    'Output.FlashCompat' => true,
-                    'HTML.SafeIframe' => true,
-                    'URI.SafeIframeRegexp'=>'%^(https?:)?//(www\.youtube(?:-nocookie)?\.com/embed/|player\.vimeo\.com/video/)%',
-                ]) ?>
+                <?php if ($data): ?>
+                    <?= Yii::$app->formatter->asHtml($data->content, [
+                        'Attr.AllowedRel' => array('nofollow'),
+                        'HTML.SafeObject' => true,
+                        'Output.FlashCompat' => true,
+                        'HTML.SafeIframe' => true,
+                        'URI.SafeIframeRegexp'=>'%^(https?:)?//(www\.youtube(?:-nocookie)?\.com/embed/|player\.vimeo\.com/video/)%',
+                    ]) ?>
+                <?php endif; ?>
             </p>
             <?php if ($work->link != '#'): ?>
                 <p><a href="<?= Html::encode($work->link) ?>" title="" class="arrow" target="_blank"><?= Html::encode($work->link) ?></a></p>
