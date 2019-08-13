@@ -2,12 +2,12 @@
 
 namespace frontend\controllers;
 
-use blog\forms\ContactForm;
+use portfolio\forms\ContactForm;
 use yii\base\Module;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
-use blog\useCases\ContactService;
+use portfolio\useCases\ContactService;
 use Yii;
 use DomainException;
 

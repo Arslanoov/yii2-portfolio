@@ -3,7 +3,7 @@
 /* @var $this yii\web\View */
 /* @var $work blog\entities\Portfolio\Work\Work */
 
-use blog\helpers\WorkHelper;
+use portfolio\helpers\WorkHelper;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\widgets\DetailView;

@@ -3,9 +3,9 @@
 namespace backend\controllers\portfolio;
 
 use backend\forms\Portfolio\SkillSearch;
-use blog\entities\Portfolio\Skill;
-use blog\forms\manage\Portfolio\SkillForm;
-use blog\useCases\manage\Portfolio\SkillManageService;
+use portfolio\entities\Portfolio\Skill;
+use portfolio\forms\manage\Portfolio\SkillForm;
+use portfolio\useCases\manage\Portfolio\SkillManageService;
 use yii\base\Module;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;

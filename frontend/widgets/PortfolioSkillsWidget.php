@@ -2,8 +2,8 @@
 
 namespace frontend\widgets;
 
-use blog\readModels\Portfolio\CategoryReadRepository;
-use blog\readModels\Portfolio\SkillReadRepository;
+use portfolio\readModels\Portfolio\CategoryReadRepository;
+use portfolio\readModels\Portfolio\SkillReadRepository;
 use yii\base\Widget;
 
 class PortfolioSkillsWidget extends Widget

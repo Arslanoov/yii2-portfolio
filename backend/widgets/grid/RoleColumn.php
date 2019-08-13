@@ -3,7 +3,7 @@
 namespace backend\widgets\grid;
 
 use Yii;
-use blog\access\Rbac;
+use portfolio\access\Rbac;
 use yii\grid\DataColumn;
 use yii\helpers\Html;
 use yii\rbac\Item;

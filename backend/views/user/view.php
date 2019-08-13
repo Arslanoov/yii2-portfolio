@@ -1,6 +1,6 @@
 <?php
 
-use blog\helpers\UserHelper;
+use portfolio\helpers\UserHelper;
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 use yii\helpers\ArrayHelper;

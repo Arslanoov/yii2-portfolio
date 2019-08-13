@@ -3,7 +3,7 @@
 namespace backend\forms;
 
 use Yii;
-use blog\entities\User\User;
+use portfolio\entities\User\User;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use yii\helpers\ArrayHelper;

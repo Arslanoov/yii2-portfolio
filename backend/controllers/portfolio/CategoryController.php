@@ -3,12 +3,12 @@
 namespace backend\controllers\portfolio;
 
 use backend\forms\Portfolio\CategorySearch;
-use blog\entities\Portfolio\Category;
-use blog\entities\Portfolio\Work\Work;
-use blog\forms\manage\Portfolio\CategoryForm;
-use blog\forms\manage\Portfolio\Work\WorkForm;
-use blog\repositories\NotFoundException;
-use blog\useCases\manage\Portfolio\CategoryManageService;
+use portfolio\entities\Portfolio\Category;
+use portfolio\entities\Portfolio\Work\Work;
+use portfolio\forms\manage\Portfolio\CategoryForm;
+use portfolio\forms\manage\Portfolio\Work\WorkForm;
+use portfolio\repositories\NotFoundException;
+use portfolio\useCases\manage\Portfolio\CategoryManageService;
 use yii\base\Module;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;

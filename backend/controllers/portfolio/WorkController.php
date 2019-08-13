@@ -3,16 +3,16 @@
 namespace backend\controllers\portfolio;
 
 use backend\forms\Portfolio\WorkSearch;
-use blog\entities\Portfolio\Work\Work;
-use blog\entities\Portfolio\Work\WorkData;
-use blog\forms\manage\Portfolio\Work\WorkForm;
-use blog\forms\manage\Portfolio\Work\WorkDataForm;
-use blog\repositories\LanguageRepository;
-use blog\repositories\NotFoundException;
-use blog\repositories\Portfolio\WorkDataRepository;
-use blog\repositories\Portfolio\WorkRepository;
-use blog\useCases\manage\Portfolio\WorkManageService;
-use blog\useCases\Portfolio\WorkDataService;
+use portfolio\entities\Portfolio\Work\Work;
+use portfolio\entities\Portfolio\Work\WorkData;
+use portfolio\forms\manage\Portfolio\Work\WorkForm;
+use portfolio\forms\manage\Portfolio\Work\WorkDataForm;
+use portfolio\repositories\LanguageRepository;
+use portfolio\repositories\NotFoundException;
+use portfolio\repositories\Portfolio\WorkDataRepository;
+use portfolio\repositories\Portfolio\WorkRepository;
+use portfolio\useCases\manage\Portfolio\WorkManageService;
+use portfolio\useCases\Portfolio\WorkDataService;
 use yii\base\Module;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;

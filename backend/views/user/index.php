@@ -2,8 +2,8 @@
 
 use backend\widgets\grid\RoleColumn;
 use kartik\widgets\DatePicker;
-use blog\entities\User\User;
-use blog\helpers\UserHelper;
+use portfolio\entities\User\User;
+use portfolio\helpers\UserHelper;
 use yii\grid\ActionColumn;
 use yii\helpers\Html;
 use yii\grid\GridView;

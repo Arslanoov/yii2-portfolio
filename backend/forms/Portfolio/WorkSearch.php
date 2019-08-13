@@ -2,9 +2,9 @@
 
 namespace backend\forms\Portfolio;
 
-use blog\entities\Portfolio\Category;
-use blog\entities\Portfolio\Work\Work;
-use blog\helpers\WorkHelper;
+use portfolio\entities\Portfolio\Category;
+use portfolio\entities\Portfolio\Work\Work;
+use portfolio\helpers\WorkHelper;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use yii\helpers\ArrayHelper;

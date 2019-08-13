@@ -2,7 +2,7 @@
 
 namespace backend\forms\Portfolio;
 
-use blog\entities\Portfolio\Skill;
+use portfolio\entities\Portfolio\Skill;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 

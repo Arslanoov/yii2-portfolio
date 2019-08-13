@@ -2,8 +2,8 @@
 
 namespace console\controllers;
 
-use blog\entities\Blog\Post\Post;
-use blog\services\search\PostIndexer;
+use portfolio\entities\Blog\Post\Post;
+use portfolio\services\search\PostIndexer;
 use yii\console\Controller;
 
 class SearchController extends Controller

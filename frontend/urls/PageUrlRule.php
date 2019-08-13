@@ -2,12 +2,12 @@
 
 namespace frontend\urls;
 
-use blog\entities\Page;
+use portfolio\entities\Page;
 use BadMethodCallException;
 use yii\base\BaseObject;
 use yii\caching\FileCache;
 use yii\helpers\ArrayHelper;
-use blog\readModels\PageReadRepository;
+use portfolio\readModels\PageReadRepository;
 use yii\web\UrlNormalizerRedirectException;
 use yii\web\UrlRuleInterface;
 

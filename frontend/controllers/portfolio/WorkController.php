@@ -2,12 +2,12 @@
 
 namespace frontend\controllers\portfolio;
 
-use blog\readModels\LanguageReadRepository;
-use blog\readModels\Portfolio\CategoryReadRepository;
-use blog\readModels\Portfolio\SkillReadRepository;
-use blog\readModels\Portfolio\WorkReadRepository;
-use blog\readModels\Portfolio\WorksDataReadRepository;
-use blog\useCases\Portfolio\WorkDataService;
+use portfolio\readModels\LanguageReadRepository;
+use portfolio\readModels\Portfolio\CategoryReadRepository;
+use portfolio\readModels\Portfolio\SkillReadRepository;
+use portfolio\readModels\Portfolio\WorkReadRepository;
+use portfolio\readModels\Portfolio\WorksDataReadRepository;
+use portfolio\useCases\Portfolio\WorkDataService;
 use yii\base\Module;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

@@ -2,7 +2,7 @@
 
 namespace frontend\controllers;
 
-use blog\readModels\PageReadRepository;
+use portfolio\readModels\PageReadRepository;
 use yii\base\Module;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;

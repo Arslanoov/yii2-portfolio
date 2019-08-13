@@ -2,8 +2,8 @@
 
 namespace common\auth;
 
-use blog\entities\User\User;
-use blog\readModels\UserReadRepository;
+use portfolio\entities\User\User;
+use portfolio\readModels\UserReadRepository;
 use OAuth2\Storage\UserCredentialsInterface;
 use yii\base\Module;
 use yii\web\IdentityInterface;

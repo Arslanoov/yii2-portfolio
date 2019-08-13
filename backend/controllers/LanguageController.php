@@ -3,11 +3,11 @@
 namespace backend\controllers;
 
 use backend\forms\LanguageSearch;
-use blog\entities\Language;
-use blog\forms\manage\LanguageForm;
+use portfolio\entities\Language;
+use portfolio\forms\manage\LanguageForm;
 use yii\web\Controller;
 use yii\base\Module;
-use blog\useCases\manage\LanguageManageService;
+use portfolio\useCases\manage\LanguageManageService;
 use Yii;
 use DomainException;
 use yii\filters\VerbFilter;

@@ -1,6 +1,6 @@
 <?php
 
-use blog\entities\Page;
+use portfolio\entities\Page;
 use yii\grid\ActionColumn;
 use yii\helpers\Html;
 use yii\grid\GridView;

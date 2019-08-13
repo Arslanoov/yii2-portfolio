@@ -1,0 +1,14 @@
+<?php
+
+namespace portfolio\listeners\User;
+
+use portfolio\entities\User\events\UserSignUpConfirmed;
+
+class UserSignUpConfirmedListener
+{
+    /**
+     * @param UserSignUpConfirmed $event
+     * @return void
+     */
+    public function handle(UserSignUpConfirmed $event): void {}
+}

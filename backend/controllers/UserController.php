@@ -2,10 +2,10 @@
 
 namespace backend\controllers;
 
-use blog\entities\User\User;
-use blog\forms\manage\User\UserCreateForm;
-use blog\forms\manage\User\UserEditForm;
-use blog\useCases\manage\User\UserManageService;
+use portfolio\entities\User\User;
+use portfolio\forms\manage\User\UserCreateForm;
+use portfolio\forms\manage\User\UserEditForm;
+use portfolio\useCases\manage\User\UserManageService;
 use Yii;
 use backend\forms\UserSearch;
 use yii\base\Module;

@@ -2,8 +2,8 @@
 
 namespace backend\controllers;
 
-use blog\forms\auth\LoginForm;
-use blog\useCases\auth\AuthService;
+use portfolio\forms\auth\LoginForm;
+use portfolio\useCases\auth\AuthService;
 use common\auth\Identity;
 use yii\base\Module;
 use yii\web\Controller;

@@ -2,7 +2,7 @@
 
 namespace frontend\widgets;
 
-use blog\readModels\Portfolio\WorkReadRepository;
+use portfolio\readModels\Portfolio\WorkReadRepository;
 use yii\base\Widget;
 
 class RelatedWorksWidget extends Widget

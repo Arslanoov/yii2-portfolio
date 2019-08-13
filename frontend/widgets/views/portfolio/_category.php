@@ -4,7 +4,7 @@
 
 use yii\helpers\Url;
 use yii\helpers\Html;
-use blog\helpers\StringHelper;
+use portfolio\helpers\StringHelper;
 
 ?>
 

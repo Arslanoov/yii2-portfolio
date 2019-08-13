@@ -3,8 +3,8 @@
 namespace backend\controllers\contact;
 
 use backend\forms\Contact\MessageSearch;
-use blog\entities\Contact\Message;
-use blog\useCases\manage\Contact\MessageManageService;
+use portfolio\entities\Contact\Message;
+use portfolio\useCases\manage\Contact\MessageManageService;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\web\Controller;

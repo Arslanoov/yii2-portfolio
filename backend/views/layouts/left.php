@@ -37,7 +37,6 @@ use dmstr\widgets\Menu;
                     ['label' => 'Сообщения', 'icon' => 'envelope-o', 'url' => ['contact/message/index'], 'visible' => Yii::$app->user->can('manager')],
                     ['label' => 'Языки', 'icon' => 'globe', 'url' => ['language/index'], 'visible' => Yii::$app->user->can('admin')],
                     ['label' => 'Меню разработчика', 'icon' => 'binoculars', 'url' => ['test/default/index'], 'visible' => Yii::$app->user->can('admin')],
-                    ['label' => 'Удалить кэш', 'icon' => 'trash', 'url' => ['cache/delete'], 'visible' => Yii::$app->user->can('admin')],
                     ['label' => 'На главную', 'icon' => 'sign-out', 'url' => 'http://meteo.dev']
                 ],
             ]

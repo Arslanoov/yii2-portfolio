@@ -7,8 +7,8 @@ use frontend\assets\VKAsset;
 use yii\helpers\Html;
 use frontend\assets\FooterAsset;
 use yii\widgets\Menu;
-use blog\helpers\PageHelper;
-use blog\readModels\PageReadRepository;
+use portfolio\helpers\PageHelper;
+use portfolio\readModels\PageReadRepository;
 use yii\caching\Cache;
 use frontend\widgets\RecentWorksWidget;
 

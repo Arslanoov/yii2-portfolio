@@ -2,7 +2,7 @@
 
 namespace backend\forms;
 
-use blog\entities\Language;
+use portfolio\entities\Language;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 

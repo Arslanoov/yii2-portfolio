@@ -1,7 +1,7 @@
 <?php
 
-use blog\entities\Portfolio\Work\Work;
-use blog\helpers\PostHelper;
+use portfolio\entities\Portfolio\Work\Work;
+use portfolio\helpers\PostHelper;
 use yii\helpers\Html;
 use yii\grid\GridView;
 use kartik\widgets\DatePicker;

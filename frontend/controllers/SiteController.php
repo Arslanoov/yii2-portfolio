@@ -2,7 +2,7 @@
 
 namespace frontend\controllers;
 
-use blog\readModels\Portfolio\WorkReadRepository;
+use portfolio\readModels\Portfolio\WorkReadRepository;
 use yii\base\Module;
 use yii\web\Controller;
 use Yii;

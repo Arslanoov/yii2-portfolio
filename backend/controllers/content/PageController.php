@@ -3,9 +3,9 @@
 namespace backend\controllers\content;
 
 use backend\forms\PageSearch;
-use blog\entities\Page;
-use blog\forms\manage\PageForm;
-use blog\useCases\manage\PageManageService;
+use portfolio\entities\Page;
+use portfolio\forms\manage\PageForm;
+use portfolio\useCases\manage\PageManageService;
 use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
 use yii\web\Controller;

@@ -4,8 +4,8 @@
 /* @var $searchModel backend\forms\Portfolio\WorkSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-use blog\entities\Portfolio\Work\Work;
-use blog\helpers\WorkHelper;
+use portfolio\entities\Portfolio\Work\Work;
+use portfolio\helpers\WorkHelper;
 use yii\helpers\Html;
 use yii\grid\GridView;
 use kartik\widgets\DatePicker;

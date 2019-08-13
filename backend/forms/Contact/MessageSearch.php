@@ -2,7 +2,7 @@
 
 namespace backend\forms\Contact;
 
-use blog\entities\Contact\Message;
+use portfolio\entities\Contact\Message;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 

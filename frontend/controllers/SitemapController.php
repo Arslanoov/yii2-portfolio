@@ -2,19 +2,19 @@
 
 namespace frontend\controllers;
 
-use blog\entities\Portfolio\Category as PortfolioCategory;
-use blog\entities\Portfolio\Work\Work;
-use blog\readModels\Portfolio\CategoryReadRepository as PortfolioCategoryReadRepository;
-use blog\readModels\Portfolio\WorkReadRepository;
-use blog\entities\Blog\Category as BlogCategory;
-use blog\entities\Blog\Post\Post;
-use blog\readModels\Blog\CategoryReadRepository as BlogCategoryReadRepository;
-use blog\readModels\Blog\PostReadRepository;
-use blog\entities\Page;
-use blog\readModels\PageReadRepository;
-use blog\services\sitemap\IndexItem;
-use blog\services\sitemap\MapItem;
-use blog\services\sitemap\Sitemap;
+use portfolio\entities\Portfolio\Category as PortfolioCategory;
+use portfolio\entities\Portfolio\Work\Work;
+use portfolio\readModels\Portfolio\CategoryReadRepository as PortfolioCategoryReadRepository;
+use portfolio\readModels\Portfolio\WorkReadRepository;
+use portfolio\entities\Blog\Category as BlogCategory;
+use portfolio\entities\Blog\Post\Post;
+use portfolio\readModels\Blog\CategoryReadRepository as BlogCategoryReadRepository;
+use portfolio\readModels\Blog\PostReadRepository;
+use portfolio\entities\Page;
+use portfolio\readModels\PageReadRepository;
+use portfolio\services\sitemap\IndexItem;
+use portfolio\services\sitemap\MapItem;
+use portfolio\services\sitemap\Sitemap;
 use yii\helpers\Url;
 use yii\web\Controller;
 use yii\web\Response;

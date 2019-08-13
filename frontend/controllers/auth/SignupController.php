@@ -2,10 +2,10 @@
 
 namespace frontend\controllers\auth;
 
-use blog\repositories\UserRepository;
-use blog\useCases\auth\SignupService;
+use portfolio\repositories\UserRepository;
+use portfolio\useCases\auth\SignupService;
 use Yii;
-use blog\forms\auth\SignupForm;
+use portfolio\forms\auth\SignupForm;
 use yii\base\Module;
 use yii\web\Controller;
 use DomainException;
