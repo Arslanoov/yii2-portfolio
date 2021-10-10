@@ -39,10 +39,3 @@
 </p>
 
 <hr>
-<hr>
-
-<p align="center">
-    <img src="https://i.ibb.co/k69C9w3/redis-database-intervista-sanfilippo-1.png">
-</p>
-
-<hr>
